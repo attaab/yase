@@ -413,7 +413,7 @@ canvas
 }
 footer{
 	background-color: #d46363;
-	height: 300px;
+	min-height: 300px;
 	padding-top: 3%;
 	color: white;
 	margin-top: 5%; 
