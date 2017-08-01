@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yase INC</title>  
+  <link rel="icon" type="image/jpg" href="https://avatars2.githubusercontent.com/u/22784617?v=4&s=400">
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="charset=utf-8" />
+  <meta name="author" content="wonderful | Adnekan" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="A community focused developer.">
+  <meta name="keywords" content="wonderful , programming, software, code, tech, computer stuff, games, cheatsheet, html, css, javascript, websites, website development, web development, design, ui, ux" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Wonderful" />
+  <meta property="og:description" content="A community focused on code and developers." />
+  <meta property="og:url" content="http://www.thegazine.blogspot.com" />
+  <meta property="og:site-name" content="wonderful" />
+  <meta property="article:publisher" content="https://facebook.com/wondertechnologies" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="wonderful" />
+  <meta name="twitter:site" content="@w_adenekan" />
+  <meta name="twitter:domain" content="" />
+  <!-- css frame works -->
+ <link rel="stylesheet" href="css/normalize.css" type="text/css">
+<!--  <bootstrap framworks> -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/materialpaper.css"> -->
+  <!-- <font awesome> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <custom stylings> -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <Custom Animations> -->
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- <end of custom animation> -->
+  
+</head>
+
+<!-- <end of head> -->
+
+
+<body >
+  <div class="alert alert-success alerted animated bounceInDown">
+    <p class="text-center"><i class="material-icons">beenhere</i></p>
+    <p class="text-center">Your Login Was Successful</p>
+  </div>
+<div>
+  <!-- <haeder section> -->
+  <header class="main">
+    <canvas class="background"></canvas>
+      <nav class="navbar navbar-default navbar-static-top animated bounce" id="navbar" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button><!-- <end of buton> -->
+            <a href="#" class="navbar-brand read-article" id="read-article"><img src="https://avatars2.githubusercontent.com/u/22784617?v=4&s=400" class="img-responsive"></a>
+          </div><!-- <end of navbar-header> -->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav " >
+              <li><a href="index.html" class="smoothScrol read-article" id="read-article">Home</a></li>
+              <li><a href="#" class="smoothScrol read-article" id="read-article">About</a></li>
+              <li><a href="#" class="smoothScrol read-article" id="read-article">Gallery</a></li>
+              <li><a href="#" class="smoothScrol read-article" id="read-article">Teams</a></li>
+              <li><a href="#" class="smoothScrol read-article" id="read-article">Contact</a></li>
+            </ul><!-- <end of navbar left> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" class="smoothScrol read-article" id="read-article" data-toggle="modal" data-target="#myemail"><i class="material-icons">inbox</i> </a></li>
+              <li><a href="login.html" ><i class="material-icons">add_circle</i> </a></li>
+               <li><a href="login.html" class="smoothScrol read-article" id="read-article">Sign up</a></li>
+            </ul><!-- <end of navbar right> -->
+          </div><!-- <end of navbar-collaspe> -->
+        </div><!-- <end of Container> -->
+      </nav>
+      <!-- <end of navbar> -->
+      <div class="container">
+        <div class="welcome_text">
+          <h1 class="text-center animated bounceIn">An Easy Way To Manage Your Project</h1>
+          <p class="text-center animated bounceIn">Taiga is a project management platform for agile developers & designers and project managers who want a beautiful tool that makes work truly enjoyable.</p>
+          <div class="welcome_button animated bounceIn">
+          <center>
+            <a href="lsson.html" class="btn btn-success btns"><i class="material-icons widget">widgets</i> Learn More</a>
+          </center>
+        </div>
+        </div>
+      </div>
+  </header>
+  <!-- <end of header section> -->
+
+  <!-- <main section > -->
+  <section>
+    <div class="customers">
+      <div class="container">
+        <div class="row">
+         <div class="col-md-3 text-center">
+           <h4 class="t-t-i">Yase Top trending Informations</h4>
+           
+           <button class="btn btn-success"><i class="material-icons">add_circle</i></button>
+         </div>
+         <div class="col-md-3 text-center">
+            <i class="material-icons">trending_up</i>
+            <p>Trending Projects</p>
+            <h4>
+              <span class="responseTime"></span>
+            </h4>
+           
+          </div>
+          <div class="col-md-3 text-center">
+            <i class="material-icons">verified_user</i>
+            <p>Finished Projects</p>
+            <h4>
+              <span class="responseTimes"></span>
+            </h4>
+          </div>
+          <div class="col-md-3 text-center">
+           <i class="material-icons">update</i>
+            <p>Updated Projects</p>
+            <h4>
+              <span>70</span>
+            </h4>
+          </div>
+           
+        </div>
+      </div>
+    </div><!-- <end of customer> -->
+    <div class="aboutus">
+      <h1 class="text-center">Why These Innovation ?</h1>
+      <h5 class="text-center">Why we built this ap for your use only</h5>
+      <div class="container">
+        <div class="row">
+         <div class="col-md-3">
+              <img src="img/1.png" class="img-responsive abt_img">
+              <h4 class="text-left">Step 1</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             </p>
+          </div>
+          <div class="col-md-3">
+              <img src="img/2.png" class="img-responsive abt_img">
+              <h4 class="text-left">Step 2</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             </p>
+          </div>
+          <div class="col-md-3">
+             <img src="img/3.png" class="img-responsive abt_img">
+             <h4 class="text-left">Step 3</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             </p>
+          </div>
+           <div class="col-md-3">
+             <img src="img/4.png" class="img-responsive abt_img">
+             <h4 class="text-left">Step 4</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- <end of aboutus> -->
+    <div class="timelines">
+      <h2 class="text-center">Why we created These?</h2>
+      <h5 class="text-center">There are so many project management tools. Why would we ever create a new one?</h5>
+      <div class="container">
+        <div class="row">
+          <div class="timeline-centered">
+    
+            <article class="timeline-entry left-aligned">
+    
+              <div class="timeline-entry-inner">
+                <div class="timeline-icon bg-success">
+                  <i class=""><b>1</b></i>
+                </div>
+                <div class="timeline-label">
+                  <p>We’re crazy about Agile; it makes us better at our jobs and our customers love it.</p>
+                </div>
+              </div>
+            </article>
+            <article class="timeline-entry">
+                
+                <div class="timeline-entry-inner">
+                  <div class="timeline-icon bg-secondary">
+                    <i class=""><b>2</b></i>
+                  </div>
+                  <div class="timeline-label">
+                    <p> We love our work. And we want to be happy doing it.</p>
+                  </div>
+                </div>
+                
+            </article>
+            <article class="timeline-entry left-aligned">
+              <div class="timeline-entry-inner">
+                <div class="timeline-icon bg-info">
+                  <i class=""><b>3</b></i>
+                </div>
+                
+                <div class="timeline-label">
+                 <p>But the Project Management Tools that are out there weren't making us happy. In fact we hated the whole lot of them. Bloated, slow, ugly to look at and unintuitive, we just couldn't stand the sight of them a moment longer.</p>
+                </div>
+              </div>
+              
+            </article>
+            <article class="timeline-entry ">
+    
+              <div class="timeline-entry-inner">
+                <div class="timeline-icon bg-warning">
+                  <i class=""><b>4</b></i>
+                </div>
+                
+                <div class="timeline-label">
+                  <p> So we banished them from browsers and built our own dream tool.</p>
+                </div>
+              </div>
+              
+            </article> 
+          </div>
+        </div>
+      </div>
+    </div><!-- <end of Timeline> -->
+    <div class="scrum">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Scrum</h2>
+            <hr>
+            <p>Scrum is an iterative and incremental agile software development methodology for managing product development.
+
+            The product backlog is what will ultimately be delivered, ordered into the sequence in which it should be delivered. Product Backlogs are broken into manageable, executable chunks named sprints. Every certain amount of time the team initiates a new sprint and commits to deliver a certain number of user stories from the backlog, in accordance with their skills, abilities and resources. The project advances as the backlog becomes depleted.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="img/scrum.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div><!-- <end of scrum> -->
+    <div class="board">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/delight-classic-bootstrap-admin-dashboard.jpg" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <h2>Board</h2>
+            <hr>
+            <p>Scrum is an iterative and incremental agile software development methodology for managing product development.
+
+            The product backlog is what will ultimately be delivered, ordered into the sequence in which it should be delivered. Product Backlogs are broken into manageable, executable chunks named sprints. Every certain amount of time the team initiates a new sprint and commits to deliver a certain number of user stories from the backlog, in accordance with their skills, abilities and resources. The project advances as the backlog becomes depleted.</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- <endof board> -->
+    <div class="epic">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>epic Multi Projects</h2>
+            <hr>
+            <p>If you work with agile methodologies, you’ve probably heard of Epics. There is no official definition what an Epic Story could look like. Researching the topic we find some concurrence that an Epic is “a large object containing User Stories that can serve to group those Stories, and plan strategically across multiple projects.
+
+            Epics on Taiga open up a whole host of new planning opportunities for those of you managing multiple projects with relationships between them. With Epics you can establish and track hierarchical or related relationships between user stories on different projects.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="img/epic.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div><!-- <end of epic> -->
+    <div class="usage">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <i class="material-icons">content_paste</i>
+            <h2>issues</h2>
+            <hr>
+            <p>Keep a list of the issues and enhancements that make up your project. Classify them and assign the right person to fix or monitor each issue.</p>
+          </div>
+          <div class="col-md-3">
+            <i class="material-icons">business</i>
+            <h2>Wiki</h2>
+            <hr>
+            <p>A wiki is the space for your project documentation. Add wiki pages, edit them directly in your browser and upload content so all your teammates have the required documentation.</p>
+          </div>
+          <div class="col-md-3">
+             <i class="material-icons">insert_invitation</i>
+            <h2>Tasks</h2>
+            <hr>
+            <p>A task communicates the need to do some work. Team members can create and define tasks to represent the work needed to accomplish a user story.</p>
+          </div>
+          <div class="col-md-3">
+             <i class="material-icons">people</i>
+            <h2>Team</h2>
+            <hr>
+            <p>Your team and a small gamification page to learn who and how the team is sharing the project tasks.</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- <end of usage> -->
+    <div class="support">
+      <h2 class="text-center">Supprt Yase</h2>
+      <h5 class="text-center">Show your support to Taiga and help us maintain it functionality you want now</h5>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 first-childs">
+             <h3>Donate to Yase OpenCollective</h3>
+             <p>We are grateful for any donations you might care to make. Any money donated will go towards a bounty fund. With your help, we will be engaging much more actively with our community to help further the development of Taiga, and we will use these donations to reward people working alongside us.</p>
+             <button type="button" class="btn btn-success support_btns">Show support now</button>
+          </div>
+          <div class="col-md-6 second-child">
+              <h3>Sponsor our development</h3>
+              <p>Simply contact us, we'll discus your needs, spec the project with our internal Taiga development team, and we will offer you $10,000 worth of our team's user story points and a commitment to develop and deploy the work in no more than 30 days.</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- <end of suppotr> -->
+    <div class="pricing">
+      <h2 class="text-center">Pricing Did we say pricing was free?</h2>
+      <h5 class="text-center">Yes! But we also have several paid plans - to help keep us off the streets <br>  Do you need more information? Check out our Frequently Asked Questions</h5>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+             <h3 class="text-center">Public plan</h3>
+             <hr>
+             <h2 class="text-center">0<small>$</small></h2>
+             <p class="text-center">Unlimited Projects</p><br>
+             <p class="text-center">You get all the features, all the bells and whistles, and the community gets to see what you are doing and even help. What could be better than that?</p>
+          </div>
+          <div class="col-md-8">
+             <h3 class="text-center">Private Plans</h3>
+             <hr>          
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th><h3>Seed</h3></th>
+                    <th><h3>Sprout</h3></th>
+                    <th><h3>Root</h3></th>
+                    <th><h3>Leaf</h3></th>
+                    <th><h3>Tree</h3></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><p>1 Private project Unlimited public projects</p></td>
+                    <td><p>5 Private project Unlimited public projects</p></td>
+                    <td><p>10 Private project Unlimited public projects</p></td>
+                    <td><p>15 Private project Unlimited public projects</p></td>
+                    <td><p>20 Private project Unlimited public projects</p></td>
+                  </tr>
+                  <tr>
+                    <td><p>Up to 4 members per private project*</p></td>
+                    <td><p>Up to 25 members per private project*</p></td>
+                    <td><p>Up to 25 members per private project*</p></td>
+                    <td><p>Up to 25 members per private project*</p></td>
+                    <td><p>Up to 25 members per private project*</p></td>
+                  </tr>
+                  <tr>
+                    <td><h2>0<small>$</small></h2></td>
+                    <td><h2>19<small>$</small></h2></td>
+                    <td><h2>29<small>$</small></h2></td>
+                    <td><h2>36<small>$</small></h2></td>
+                    <td><h2>69<small>$</small></h2></td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="text-center">Signup now and get 20% discout off every of your plans Now</p>
+              <center>
+                <button type="button" class="btn btn-success pricing-btn">Sign up now</button>  
+              </center>
+              
+          </div>
+        </div>
+      </div>
+    </div><!-- <end od pricing> -->
+  </section>
+  <!-- <end of main section> -->
+
+  <!-- <footer> -->
+  <footer>
+    <div class="container">    
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-2">
+            <ul class="unstyled">
+              <li><h4>GitHub</h4><li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact & support</a></li>
+              <li><a href="#">Enterprise</a></li>
+              <li><a href="#">Site status</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="unstyled">
+              <li><h4>Applications</h4><li>
+              <li><a href="#">Product for Mac</a></li>
+              <li><a href="#">Product for Windows</a></li>
+            
+              <li><a href="#">Product mobile apps</a></li>              
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="unstyled">
+              <li><h4>Services</h4><li>
+              <li><a href="#">Web analytics</a></li>
+              <li><a href="#">Presentations</a></li>
+              <li><a href="#">Code snippets</a></li>
+              <li><a href="#">Job board</a></li>              
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="unstyled">
+              <li><h4>Documentation</h4><li>
+              <li><a href="#">Product Help</a></li>
+              <li><a href="#">Developer API</a></li>
+              <li><a href="#">Product Markdown</a></li>
+              <li><a href="#">Product Pages</a></li>              
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="unstyled">
+              <li><h4>Services</h4><li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Software</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Pages</a></li>              
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="unstyled">
+              <li><h4>More</h4><li>
+              <li><a href="#">Training</a></li>
+              <li><a href="#">Students & teachers</a></li>
+              <li><a href="#">The Shop</a></li>
+              <li><a href="#">Plans & pricing</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>          
+        </div>
+      </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-8">
+            
+            </div>
+            <div class="span4">
+              <p class="muted pull-right">© 2017 Yase. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </footer> 
+  <!-- <end of footer> -->
+    <div id="myemail" class="modal fade animated bounceIn" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><i class="material-icons">&#xE14C;</i>&nbsp;</button><a href="#" type="button" class="close" ><i class="material-icons">add_circle</i></a>
+          </div>
+          <div class="modal-body">
+           <h3 class="modal-title text-center">Stay notified For Yase Now</h3>
+            <form>
+              <div class="form-group">
+                  <input type="text" name="" placeholder="Your Email" class="form-control input">
+                  <button type="button" class="btn btn-success btn-group-justified modal-button">Stay Notified</button><br>
+                  <p class="text-center">I already have an account <a href="#"  data-dismiss="modal">Log In Now</a></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="js/particles.min.js"></script>
+<script type="" src="js/jqey.js"></script>
+<script type="" src="js/boots.js"></script>
+<script type="text/javascript">
+  window.onload = function() {
+    Particles.init({
+      selector: '.background',
+      maxParticles: 60,
+      sizeVariations: 4,
+      speed: 0.6,
+      color: '#ffffff',
+      minDistance:30,
+      connectParticles:false
+    });
+  };
+  
+</script>
+<script type="text/javascript">
+startTimer = function() {
+var time;
+time = 1000;
+setInterval((function() {
+    var hour, min, sec, str;
+    time++;
+    sec = time % 60;
+    min = (time - sec) / 60 % 60;
+    hour = (time - sec - (min * 60)) / 3600;
+    count = hour + ('0' + min).slice(-2) + ('0' + sec).slice(-2);
+    counted = hour + ('0' + min).slice(-1) + ('0' +sec).slice(-1);
+    $('.responseTime').text(count);
+     $('.responseTimes').text(counted);
+    }), 1000);
+   };
+
+$( document ).ready(function() {
+    startTimer();
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function () {
+ 
+window.setTimeout(function() {
+    $(".alert").fadeTo(1000, 0).slideUp(1000, function(){
+        $(this).remove(); 
+    });
+}, 3000);
+ 
+});
+</script>
+</body>
+</html>
