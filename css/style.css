@@ -564,6 +564,12 @@ a#read-articles{
 	.mage{
 		margin-bottom: 4%;
 	}
+	.tables{
+		display: none;
+	}
+	.alerted{
+		display: none;
+	}
 }
 @media( max-width : 989px ) {
 	.timelines{
@@ -580,8 +586,34 @@ a#read-articles{
 	.mage{
 		margin-bottom: 4%;
 	}
+	.tables{
+		display: none;
+	}
+	.alerted{
+		display: none;
+	}
 }
 @media( max-width : 120px ){
+	.timelines{
+		display: none;
+	}
+	.welcome_text{
+		padding-top: 16%;
+	}
+	.mage img{
+		height: 200px;
+		width: 200px;
+
+	}
+	.mage{
+		margin-bottom: 4%;
+	}
+	.tables{
+		display: none;
+	}
+	.alerted{
+		display: none;
+	}
 }
 
 
